@@ -4,6 +4,7 @@
 helm install mysql-exporter prometheus-community/prometheus-mysql-exporter \
   --namespace database-monitoring \
   --values mysql-exporter/mysql-exporter-values.yaml
+```
 
 It installs a MySQL Exporter in Kubernetes so Prometheus can monitor MySQL.
 ```md
